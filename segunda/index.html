@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="segunda.css">
+</head>
+<body>
+    <header>
+
+        <h2>petinder</h2>
+    </header>
+    <main>
+
+        <div>
+
+            <h2>Hazte socio</h2>
+            <p>Colabora con petinder haciéndote socio por solo 15 euros mensuales.
+              Con muy poco puedes ayudar mucho a nuestros amigos peludos .
+              Además puedes comprar nuestra exclusiva camiseta por solo 10 euros que se añadiran al primer pago.
+              Rellena el siguente formulario para unirte a nosotros.  
+            </p>
+        </div>
+
+            <form>
+
+                 <fieldset>
+                    <legend>Datos personales</legend>
+
+
+                    <label for="nombre">Nombre *</label><br><input type="text" id="nombre"  placeholder="Nombre" title="ejemplo:fernando" required><br>
+                    <label for="apellidos">Apellidos *</label><br><input type="text" id="apellidos" placeholder="Apellido" title="ejemplo:perez" required><br>
+                    <label for="correo">Correo electrónico *</label><br><input type="email" id="correo" placeholder="Correo electrónico" title="ejemplo:ejemplo@gmail.com" required><br>
+                    <label for="dni">DNI *</label><br><input type="text" id="dni" pattern="[0-9]{8}[a-zA-Z]{1}" maxlength="9"  placeholder="DNI" title="ejemplo:11111111A" required><br>
+                    <label for="fecha">Fecha de nacimiento</label><br><input type="date" id="fecha"><br>
+                 </fieldset>
+
+                 <div id="formbottom">
+
+
+                    <p>* todos los campos marcados son obligatorios</p>
+
+                    <input type="checkbox" id="aceptar" required>  <label for="aceptar">He leido y acepto la politica de privacidad y las condiciones de uso</label><br><br>
+     
+                    <input type="submit" value="Enviar" id="envio">
+
+                 </div>
+
+             
+
+            </form>
+
+
+        
+    </main>
+
+    <footer>
+        <p>2021 c Petinder-Fernando Jesús Pérez Rodríguez</p>
+    </footer>
+    
+</body>
+</html>

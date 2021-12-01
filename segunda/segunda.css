@@ -1,0 +1,74 @@
+header {
+  height: 5vh;
+  box-shadow: 9px 11px 20px red;
+  padding-top: 0;
+  padding-bottom: 15px;
+}
+
+header h2 {
+  margin-left: 40px;
+}
+
+fieldset {
+  width: 30vw;
+  margin-bottom: 35px;
+}
+
+legend {
+  background-color: #ff0000;
+  color: white;
+  padding: 4px;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: #ff0000;
+  color: white;
+  padding-left: 100px;
+  padding-top: 3px;
+  padding-bottom: 10px;
+  height: 5vh;
+}
+
+#envio {
+  border: black;
+  background-color: #ff0000;
+  color: white;
+  padding: 4px;
+}
+
+input {
+  width: 30vw;
+}
+
+#aceptar {
+  width: 2vw;
+}
+
+#envio {
+  width: 4vw;
+  margin-left: 15px;
+}
+
+#formbottom {
+  height: 20vh;
+  margin-left: 70px;
+}
+
+form {
+  height: 50vh;
+}
+
+footer p {
+
+    margin-top: 4px;
+}
+
+#formbottom  p {
+
+    margin-left: 15px;
+ 
+}
+
